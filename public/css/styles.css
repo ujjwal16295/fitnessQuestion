@@ -1,0 +1,111 @@
+body{
+    font-family: Ubuntu,Montserrat;
+}
+.nav-color{
+    background-color: greenyellow;
+}
+.home{
+    background-color: rgb(131, 230, 131);
+    margin: 1rem;
+}
+.homeh3{
+    text-align: center;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.ftr{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.lih3{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-left:1rem;
+}
+.question{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.hover:hover{
+    text-decoration: underline;
+    color: white;
+}
+.text-question{
+    text-align: center;
+}
+#textarea{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.logout{
+    margin-top: 20px;
+   text-align: center;
+}
+
+.question-design{
+text-align: center;
+border: 2px solid green;
+background-color: greenyellow;
+border-radius: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 2.2rem;
+}
+.question-design:hover{
+    transform: scale(1.2);
+}
+.question-row{
+   margin:50px;
+   text-align: center;
+}
+.header{
+ padding: 0px;
+}
+/* login */
+.form{
+    margin:20px 20px 20px 20px;
+    text-align: center;
+}
+.input-el{
+    margin: 10px;
+}
+.lgn{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.link{
+    text-align: center;
+    margin: 1rem;
+    padding: 6rem;
+}
+.qlink{
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+   text-decoration: none;
+}
+.rgs{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* question */
+@media(max-width:888px){
+    .question-area{
+        width: 300px;
+     }
+}
+@media(max-width:300px){
+    .question-area{
+        width: 100px;
+     }
+}
+@media(min-width:990px){
+    .question-row{
+        text-align: center;
+    }
+}

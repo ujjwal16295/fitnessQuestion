@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+<div class="container-fluid">
+<h1 class="question">Questions</h1>
+<form action="/question" method="post" class="text-question">
+    <label> TYPE YOUR QUESTION HERE :</label><br>
+    <textarea name="textarea" id="textarea" cols="115" rows="5" placeholder="type your question here" class="question-area"></textarea><br>
+    <button type="submit">submit</button>
+</form>
+<div class="logout">
+<a href="/logout" class="btn btn-dark" >logout</a>
+</div>
+<div class=" row question-row">
+    <%  title.forEach(function(post){ %>
+    <div class="question-design col-lg-5 col-md-12">
+        <h1><%=post.question.substring(0,100)+"..."%></h1>
+        <p><%=post.name%></p>
+        <a href="/question/<%= post._id%>">read more</a>
+    </div>
+        <%  }) %>
+</div>
+</div>
+
+ <%- include('partials/footer') %>
